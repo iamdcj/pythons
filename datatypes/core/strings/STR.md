@@ -2,6 +2,27 @@
 
 The `st` datatype represent a string in the python language.
 
+
+Strings in Python are immutable, that is they cannot be modified once they are declared
+
+```
+stringy = "Dave"
+
+stringy[2] = "n
+
+### TypeError: 'str' object does not support item assignment
+
+```
+
+However, variables containing strings can be reassigned with a new string
+
+```
+stringy = "Dave"
+stringy = "Dane" 
+
+print(stringy) ## Dane
+```
+
 ## Single-line strings
 
 If you want to create a string on a single line this can be done simply by adding quotes around the string:
