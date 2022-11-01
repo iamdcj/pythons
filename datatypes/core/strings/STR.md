@@ -76,3 +76,45 @@ print('Hi, my name is {0}. I am {1} years old'.format(name, age))
 
 ## Hi, my name is David. I am 35 years old
 ```
+
+
+## Slicing
+Python allows you to target elements within a string by essentially presenting them as individual items in a list, indexed at 0.
+
+
+**Get element at index**
+```
+stringy = "0123456789"
+
+print(string[0]) ## 0
+
+```
+
+**Get range of elements | start:end**
+
+```
+stringy = "0123456789"
+
+print(string[0:3]) ## 012
+
+```
+
+
+**Step over elements | start:end:stepover**
+This will grab every nth character in the list - in this case it will start at 0 and return every 3rd letter in the string, starting at 0 and ending at 10
+
+```
+stringy = "0123456789"
+
+print(string[0:10:3]) ## 0369
+
+```
+
+
+**Flip string**
+```
+stringy = "0123456789"
+
+print(stringy[::-1]) ## 9876543210
+
+```
