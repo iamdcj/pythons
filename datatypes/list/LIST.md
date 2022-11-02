@@ -2,7 +2,6 @@
 
 The `list` datatype represent an array-like collection of values in a list.
 
-
 ```
 intList = [1,2,3,4,5]
 textList = ["a", "b", "c"]
