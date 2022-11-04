@@ -1,6 +1,18 @@
+import json
 import requests
 
-response = requests.get("https://iamdcj.free.beeceptor.com")
+## Basic Fetch
+def fetchBasic():
+    return requests.get("https://iamdcj.free.beeceptor.com")
 
-print(response.status_code)
-print(response.text)
+print(fetchBasic().status_code)
+print(fetchBasic().text)
+
+## Fetch some JSON
+def fetchJson():
+    return requests.get('https://jsonplaceholder.typicode.com/todos/1')
+
+print(fetchJson().status_code)
+jsonData = fetchJson().json()
+
+print(jsonData["userId"])
