@@ -6,3 +6,6 @@ Python is a high-level, generally  interpreted* programming language, that is Py
 
 ---
 
+
+Python utilises indentation to identify blocks of code, e.g. a function body or say the `if` block.
+
