@@ -25,4 +25,8 @@ Python _does not_ have a strict equality operator as per javascript, but if you 
 print([] == False)
 
 ## False
+
+print('1' == 1)
+
+## False
 ```
