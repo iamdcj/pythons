@@ -1,6 +1,6 @@
 # tuple
 
-The `tuple` is an immutable datastructure that is ordered by number, indexed at 0.
+The `tuple` is an immutable data structure that is ordered by number, indexed at 0.
 
 They are useful when you have a list of data that isn't going to change.
 
