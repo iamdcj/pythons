@@ -22,3 +22,32 @@ for n in someList:
     counter += n
 
 print(counter)
+
+# 55
+
+someDic = {
+    0: "a",
+    1: "b",
+    2: "c",
+}
+
+for x in someDic:
+    print(x)
+
+# 0
+# 1
+# 2
+
+for x in someDic.values():
+    print(x)
+
+# a
+# b
+# c
+
+for x in someDic.items():
+    print(x)
+
+# (0, 'a')
+# (1, 'b')
+# (2, 'c')

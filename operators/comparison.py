@@ -26,10 +26,9 @@ print([] == False)  # false
 print([1, 2, 3] == [1, 2, 3])  # true
 
 # Using IS
-print(10 is 10.0)  # False
-print(10 is "10")  # False
-print(1 is True)  # False
-print(0 is False)  # False
-print("1" is True)  # False
-print([] is False)  # False
+print(10 is 10)  # True
+print("10" is "10")  # True
+print(True is True)  # True
+print(False is False)  # True
+print({} is {})  # False
 print([1, 2, 3] is [1, 2, 3])  # False
