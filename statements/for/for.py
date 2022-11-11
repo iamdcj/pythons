@@ -51,3 +51,38 @@ for x in someDic.items():
 # (0, 'a')
 # (1, 'b')
 # (2, 'c')
+
+
+aTuple = (1, 2, 3)
+
+for x in aTuple:
+    print(x)
+
+# 1
+# 2
+# 3
+
+
+setA = {1, 2, 3}
+
+for x in setA:
+    print(x)
+
+# 1
+# 2
+# 3
+
+
+for i in range(0,10):
+    print(i)
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
