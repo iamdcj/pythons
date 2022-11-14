@@ -117,3 +117,25 @@ for i in range(1):
 
 # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
+
+for i in enumerate('hey'):
+    print(i)
+
+# (0, 'h')
+# (1, 'e')
+# (2, 'y')
+
+## allows index-based value accessing
+
+
+for index, integer in enumerate(list(range(1, 5))):
+    print(index, integer)
+
+# (0, 1)
+# (1, 2)
+# (2, 3)
+# (3, 4)
+
+for index, integer in enumerate(list(range(1, 5))):
+    print(f"index of 3 is {index}" if integer == 3 else "")
+# index of 3 is 2
