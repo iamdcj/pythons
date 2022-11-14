@@ -15,7 +15,7 @@ for x in [1, 2]:
 for x in "some string":
     print(x)
 
-someList = [1,2,3,4,5,6,7,8,9,10]
+someList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 counter = 0
 
 for n in someList:
@@ -73,7 +73,7 @@ for x in setA:
 # 3
 
 
-for i in range(0,10):
+for i in range(0, 10):
     print(i)
 
 # 0
@@ -88,7 +88,7 @@ for i in range(0,10):
 # 9
 
 
-for i in range(0,10, 2):
+for i in range(0, 10, 2):
     print(i)
 
 # 0
@@ -96,3 +96,18 @@ for i in range(0,10, 2):
 # 4
 # 6
 # 8
+
+
+for i in range(10, 0, -1):
+    print(i)
+
+# 10
+# 9
+# 8
+# 7
+# 6
+# 5
+# 4
+# 3
+# 2
+# 1
